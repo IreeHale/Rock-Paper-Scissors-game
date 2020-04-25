@@ -31,13 +31,13 @@ function lose(userChoice, computerChoice) {
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = convertToWord(userChoice) + " loses to " + convertToWord(computerChoice) + ". You Win!";
+    result_p.innerHTML = convertToWord(userChoice) + " loses to " + convertToWord(computerChoice) + ". You LOST!";
 }
 
 function draw(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = convertToWord(userChoice) + " equals to " + convertToWord(computerChoice) + ". You Win!";
+    result_p.innerHTML = convertToWord(userChoice) + " equals to " + convertToWord(computerChoice) + ". Its a DRAW!";
 }
 
 function game(userChoice) {
